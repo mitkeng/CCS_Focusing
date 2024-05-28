@@ -9,7 +9,7 @@ This python language platform takes in a peptide pdb file and generates conforma
 
 
 
-
+Click [KopyKat](https://colab.research.google.com/drive/1XQFpyve_QcMWBQvyLV5kEpLgzbhqpeO9#scrollTo=x15w2e0-NSgB) 
 
 <br />
 <br />
