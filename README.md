@@ -12,6 +12,8 @@ Click [CCS Focusing](https://colab.research.google.com/drive/1Sr0ydH5AGFRG15xTjF
 
 
 
+Click [CCS Focusing](https://colab.research.google.com/drive/1Sr0ydH5AGFRG15xTjFpZHpcZPgy4k1Lp#scrollTo=-DId6ORx7rPy) 
+
 <br />
 <br />
 
