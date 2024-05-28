@@ -1,4 +1,4 @@
-## CCS Focusing is sequential machine learning model implemnted in a python platform for use to reduce the number of conformers sampled post conformation generation. This is done by predicting their gas phase collisional cross section values (molecular discriptor).
+## CCS Focusing is sequential machine learning model implemented in a python executable platform for use to reduce the number of conformers sampled post conformation generation. This is done by predicting their gas phase collisional cross section values (molecular discriptor).
 <br />
 <br />
 <br />
