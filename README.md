@@ -1,6 +1,8 @@
 
 <br /><img width="500" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/2e01119f-7dc2-4361-aca7-60e17e7fda79">
-
+<br />
+<br />
+<br />
 
 ### CCS Focusing is a sequential machine learning model implemented in a python executable platform for use to reduce the number of conformers sampled post conformation generation. This is done by predicting the gas phase collisional cross section (molecular descriptor) values of raw conformers to determine their ion-mobility mass spectrometry gas phase relevance. 
 <br />
@@ -9,8 +11,6 @@
 <br />
 
 ### The advantage ultimately is reduced computational workload downstream (e.g., quantum mechanical calculations) and improved gas phase structure prediction precision. It is currently only appropriate for lipid molecules. 
-<br />
-<br />
 <br />
 
 ### This program takes in an ensemble of raw conformers in atomic cartesian xyz format as input. Only filtering and partitioning of conformers are accomplished; no alteration to conformer physical property is done. Connection to google drive for importing and exporting data or results is supported. 
