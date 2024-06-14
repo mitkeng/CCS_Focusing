@@ -14,7 +14,7 @@
  The advantage ultimately is reduced computational workload downstream (*e.g.*, quantum mechanical calculations) and improved gas phase structure prediction precision. It is currently only appropriate for lipid molecules. 
 <br />
 
- This program takes in an ensemble of raw conformers in atomic cartesian xyz format as input. Only filtering and partitioning of conformers are accomplished; no alteration to conformer physical property is done. Connection to google drive for importing and exporting data or results is supported. 
+ This program takes in an ensemble of raw conformers in atomic cartesian xyz format as input. Only filtering and partitioning of conformers are accomplished; no alteration to conformer physical property is done. Connection to google drive for importing and exporting data or results are supported. 
 
 <br />
 
