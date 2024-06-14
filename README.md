@@ -16,8 +16,7 @@
 
  This program takes in an ensemble of raw conformers in atomic cartesian xyz format as input. Only filtering and partitioning of conformers are accomplished; no alteration to conformer physical property is done. Connection to google drive for importing and exporting data or results is supported. 
  
- <a target="_blank" href="https://colab.research.google.com/drive/1Sr0ydH5AGFRG15xTjFpZHpcZPgy4k1Lp#scrollTo=-DId6ORx7rPy"></a ><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">   <code style="color : grey">to access CCS Focusing platform.</code>
-
+ [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1XQFpyve_QcMWBQvyLV5kEpLgzbhqpeO9#scrollTo=x15w2e0-NSgB) <code style="color : grey">to access CCS Focusing platform.</code>
 
 
 
