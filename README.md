@@ -11,7 +11,7 @@
  The model is trained on molecular features obtained from 3D structures that have been geometry optimized at the DFT D3BJ-B3LYP/6-31G(d,p) for cation and D3BJ-B3LYP/6-31+G(d,p) level of theory for anion.
 <br />
 
- The advantage ultimately is reduced computational workload downstream (*e.g.*, quantum mechanical calculations) and improved gas phase structure prediction precision. It is currently only appropriate for lipid molecules. 
+ The advantages ultimately are reduced computational workload downstream (*e.g.*, quantum mechanical calculations) and improved gas phase structure prediction precision. It is currently only appropriate for lipid molecules. 
 <br />
 <br />
 The latest CCS prediction performance with the current dataset size as compared to DFT derived CCS values: 
