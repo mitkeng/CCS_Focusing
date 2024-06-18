@@ -13,13 +13,21 @@
 
  The advantage ultimately is reduced computational workload downstream (*e.g.*, quantum mechanical calculations) and improved gas phase structure prediction precision. It is currently only appropriate for lipid molecules. 
 <br />
+<br />
+The latest CCS prediction performance with the current dataset size as compared to DFT derived CCS values: 
+
+<img align = "center" width="375" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49">
+<br />
+
 
  This program takes in an ensemble of raw conformers in atomic cartesian xyz format as input. Only filtering and partitioning of conformers are accomplished; no alteration to conformer physical property is done. Connection to google drive for importing and exporting data or results are supported. 
-
 <br />
+<br />
+
 
  [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1ZTLqHMI-rdoHQZ4zjElK4VEPLQhXcUp6?usp=sharing) <code style="color : grey">to access CCS Focusing platform.</code>
 
 
   [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1HiXUZB65Ryf71YyuKg_V3VIWjwuRGXAR?usp=sharing) <code style="color : grey">to access proGENi conformation generation platform.</code>
+
 
