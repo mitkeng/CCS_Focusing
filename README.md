@@ -16,8 +16,10 @@
 <br />
 The latest CCS prediction performance with the current dataset size as compared to DFT derived CCS values: 
 
-<img align = "center" width="375" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49">
+<img align = "center" width="390" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49">
+<img align = "right" width="390" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/33d3fd35-2971-416b-b5e0-f66cea68de54">
 <br />
+
 
 
  This program takes in an ensemble of raw conformers in atomic cartesian xyz format as input. Only filtering and partitioning of conformers are accomplished; no alteration to conformer physical property is done. Connection to google drive for importing and exporting data or results are supported. 
