@@ -16,9 +16,9 @@
 <br />
 The latest CCS prediction performances using our current datasets for three molecule classes as compared to DFT derived CCS values are as follow: 
 
-<img align = "left" width="325" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49">
-<img align = "center" width="325" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/33d3fd35-2971-416b-b5e0-f66cea68de54">
-<img align = "center" width="325" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/c9467f02-3343-46a8-b54c-4c43b76e921b">
+<img align = "left" width="350" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49">
+<img align = "center" width="350" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/33d3fd35-2971-416b-b5e0-f66cea68de54">
+<img align = "center" width="350" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/c9467f02-3343-46a8-b54c-4c43b76e921b">
 <br />
 
  This program takes in an ensemble of raw conformers in atomic cartesian xyz format as input. Only filtering and partitioning of conformers are accomplished; no alteration to conformer physical property is done. Connection to google drive for importing and exporting data or results are supported. 
