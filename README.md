@@ -20,6 +20,7 @@ The latest CCS prediction performances using our current datasets for three mole
 
 <img align = "left" width="400" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49">
 <img align = "center" width="400" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/33d3fd35-2971-416b-b5e0-f66cea68de54">
+<img align = "left" width="400" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/ed54742b-c178-4632-84b3-9d2081ddaf93">
 <img align = "center" width="400" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/c9467f02-3343-46a8-b54c-4c43b76e921b">
 <br />
 
