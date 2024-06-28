@@ -1,0 +1,7 @@
+Biomolecule class: lipid
+Subclass: fatty acid
+Compound name: γ-linolenic acid
+Conformation generator: Schrodinger ConfGen
+Number of conformations in ensemble: 11000
+Mass spectrometry charge mode: [M-H]-
+Reference collision cross section: <173.67> Å²
