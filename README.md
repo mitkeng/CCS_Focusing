@@ -40,6 +40,7 @@ The latest CCS prediction performances using our current datasets for three mole
 <img align = "right" width="75" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/c02957e7-bf41-43ce-860c-4927420b2f20">
 
 <br />
+<br />
 
 ### Acknowledgement 
 Quantum mechanical calculations and data used in building this model were organically generated through computational resources and services provided by the Institute for Cyber-Enabled Research [(ICER)](https://github.com/MSU-iCER) Michigan State University.
