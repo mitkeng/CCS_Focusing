@@ -42,7 +42,7 @@ The latest CCS prediction performances using our current datasets for three mole
 ### Acknowledgement 
 [Merz research group](https://github.com/merzlab) 
 
-Quantum mechanical calculations and data used in building this model were organically generated through computational resources and services provided by the Institute for Cyber-Enabled Research [(ICER)](https://github.com/MSU-iCER) Michigan State University.
+Quantum mechanical calculations and data used in building this model were organically generated through computational resources and services provided by the Institute for Cyber-Enabled Research [(ICER)](https://github.com/MSU-iCER) at Michigan State University.
 
 <br/>
 <br/>
