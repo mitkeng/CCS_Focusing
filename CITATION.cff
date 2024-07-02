@@ -21,12 +21,10 @@ abstract: >-
   using machine learning 
 keywords:
   - Ion-mobility mass spectrometry
-  - IM-MS
   - Gas phase
   - Molecular modeling
   - Computational chemistry
   - Collision cross section
-  - In silico
   - Machine learning
 license: Apache-2.0
 version: '1.0'
