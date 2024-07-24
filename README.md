@@ -14,12 +14,12 @@
  The model is trained on molecular features obtained from 3D structures that have been geometry optimized at the density functional theory (DFT) D3BJ-B3LYP/6-31G(d,p) for cation and D3BJ-B3LYP/6-31+G(d,p) level of theory for anion.
 <br />
 
- The advantages ultimately are reduced computational workload downstream (*e.g.*, quantum mechanical calculations) and improved gas phase structure prediction precision. The model is currently only appropriate for lipid molecules; validations for other biomolecule classes are currently in progress. 
+ The advantages ultimately are reduced computational workload downstream (*e.g.*, quantum mechanical calculations) and improved gas phase structure prediction precision. Currently, the only model in this repository that has been validated for use is the *lipid_model.keras* for lipids; validations for other biomolecule classes are currently in progress. 
 <br />
 <br />
 #
 ### Performance 
-The latest CCS prediction performances using our current datasets for three molecule classes as compared to DFT derived CCS values are as follow: 
+The latest CCS prediction performances using our current datasets for four molecule classes as compared to DFT derived CCS values are as follow: 
 
 <img align = "left" width="400" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49">
 <img align = "center" width="400" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/33d3fd35-2971-416b-b5e0-f66cea68de54">
