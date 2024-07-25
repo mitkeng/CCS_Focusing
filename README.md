@@ -8,7 +8,7 @@
 <br />
 #
 ### Introduction
- CCS Focusing is a sequential machine learning model implemented in a python executable platform for use to reduce the number of conformers sampled post conformation generation, which is often necessary when modeling highly flexible systems like fatty acids. This is done by predicting the gas phase collisional cross section (a molecular descriptor within the confines of ion-mobility mass spectrometry) values of raw conformers to determine their ion-mobility mass spectrometry gas phase relevance. 
+ CCS Focusing is a sequential machine learning model implemented in a python executable platform for use to reduce the number of conformers sampled post conformation generation, which is often necessary when modeling highly flexible systems like fatty acids. This is done by predicting the gas phase ion-neutral (*i.e.*, $N_{2}$) collisional cross section (a molecular descriptor within the confines of ion-mobility mass spectrometry) values of raw conformers to determine their ion-mobility mass spectrometry (IM-MS gas phase relevance. 
 <br />
 
  The model is trained on molecular features obtained from 3D structures that have been geometry optimized at the density functional theory (DFT) D3BJ-B3LYP/6-31G(d,p) for cation and D3BJ-B3LYP/6-31+G(d,p) level of theory for anion.
@@ -28,8 +28,12 @@ The latest CCS prediction performances using our current datasets for four molec
 <br />
 
 #
-### Requirement and Disclaimer
- This program takes in an ensemble of raw conformers in atomic cartesian xyz format as input. Only filtering and partitioning of conformers are accomplished; no alteration to conformer physical property is done. Connection to google drive for importing and exporting data or results are supported. 
+### Remarks and Requirement 
+This program takes in an ensemble of raw conformers in atomic cartesian xyz format as input. As mentioned prior, CCS is predicted for $N_{2}$  as the neutral IM-MS collision gas. Only filtering and partitioning of conformers are accomplished; no alteration to conformer physical property is done. The filter size is automatically constructed from the model's latest performance standard prediction error and a user input reference CCS value. 
+
+Additional unvalidated models for other biomolecule classes are made available as dropdown options for use, but proceed with discretion. 
+
+Connection to Google Colab Notebook is required. Connecting to Google Drive for importing and exporting data or results are supported. 
 <br />
 <br />
 
