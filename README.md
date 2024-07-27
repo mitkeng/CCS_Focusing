@@ -8,7 +8,7 @@
 <br />
 #
 ### Introduction
- CCS Focusing is a sequential machine learning model implemented in a python executable platform for use to reduce the number of conformers sampled post conformation generation, which is often necessary when modeling highly flexible systems like fatty acids. This is done by predicting the gas phase ion-neutral (*i.e.*, $N_{2}$) collisional cross section (a molecular descriptor within the confines of ion-mobility mass spectrometry) values of raw conformers to determine their ion-mobility mass spectrometry (IM-MS gas phase relevance. 
+ CCS Focusing is a sequential machine learning model implemented in a python executable platform for use to reduce the number of conformers sampled post conformation generation, which is often necessary when modeling highly flexible systems like fatty acids. This is done by predicting the gas phase ion-neutral (*i.e.*, $N_{2}$) collisional cross section (a molecular descriptor within the confines of ion-mobility mass spectrometry) values of raw conformers to determine their ion-mobility mass spectrometry (IM-MS) gas phase relevance. 
 <br />
 
 The model is trained on computed CCS values from 3D structures that have been geometry optimized at the density functional theory (DFT) D3BJ-B3LYP/6-31G(d,p) for cation, $[M+H]^+$, and D3BJ-B3LYP/6-31+G(d,p) level of theory for anion, $[M-H]^-$.
