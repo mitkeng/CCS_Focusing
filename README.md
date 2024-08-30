@@ -19,7 +19,7 @@ The model is trained on computed CCS values from 3D structures that have been ge
 <br />
 #
 ### Performance 
-The latest CCS prediction performance using our current dataset for lipid class molecules as compared to DFT derived CCS values are as follow: 
+The latest CCS prediction performance using our current dataset for lipid class molecules as compared to DFT derived CCS values is as follow: 
 
 <img align = "center" width="500" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49"> 
 <br />
