@@ -21,7 +21,7 @@ The model is trained on computed CCS values from 3D structures that have been ge
 ### Performance 
 The latest CCS prediction performance using our current dataset for lipid class molecules as compared to DFT derived CCS values are as follow: 
 
-<img align = "left" width="400" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49">
+<img align = "center" width="500" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49"> 
 <br />
 
 #
@@ -35,7 +35,7 @@ Connection to Google Colab Notebook is required. Connecting to Google Drive for 
 <br />
 
 #
-### Accessible
+### Accessibility
  [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1ZTLqHMI-rdoHQZ4zjElK4VEPLQhXcUp6?usp=sharing) <code style="color : grey">to access CCS Focusing platform.</code>
 <br />
 
