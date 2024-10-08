@@ -46,6 +46,11 @@ Connection to Google Colab Notebook is required. Connecting to Google Drive for 
 <br />
 
 #
+### Citation
+Keng, M.; Merz, K. M., Jr. Eliminating the Deadwood: A Machine Learning Model for CCS Knowledge-Based Conformational Focusing for Lipids. Journal of Chemical Information and Modeling 2024. DOI: 10.1021/acs.jcim.4c01051.
+
+
+#
 ### Acknowledgement 
 [Merz research group](https://github.com/merzlab) 
 
