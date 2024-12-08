@@ -2,10 +2,9 @@
 
 # CCS Focusing: conformational space focusing and ensemble distillation
 
-<br /><img align = "center" width="550" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/2e01119f-7dc2-4361-aca7-60e17e7fda79">
+<br /><img align = "center" width="700" alt="focus" src="https://github.com/user-attachments/assets/7b905208-5958-4544-8d1e-bf58928d9bb0">
 <br />
-<br />
-<br />
+
 #
 ### Introduction
  CCS Focusing is a sequential machine learning model implemented in a python executable platform for use to reduce the number of conformers sampled post conformation generation, which is often necessary when modeling highly flexible systems like fatty acids. This is done by predicting the gas phase ion-neutral (*i.e.*, $N_{2}$) collisional cross section (a molecular descriptor within the confines of ion-mobility mass spectrometry) values of raw conformers to determine their ion-mobility mass spectrometry (IM-MS) gas phase relevance. 
