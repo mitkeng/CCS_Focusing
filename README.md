@@ -2,8 +2,9 @@
 
 # CCS Focusing: conformational space focusing and ensemble distillation
 
-<br /><img align = "center" width="700" alt="focus" src="https://github.com/user-attachments/assets/9855af8d-012f-47d1-8a9c-76cd29e4e592">
+<br /><img align = "center" width="500" alt="image_1062b0ce" src="https://github.com/user-attachments/assets/541656b3-91f1-454c-ba66-338ac81f12dc">
 <br />
+
 
 #
 ### Introduction
