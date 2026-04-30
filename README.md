@@ -5,12 +5,10 @@
 <br /><img align = "center" width="500" alt="image_1062b0ce" src="https://github.com/user-attachments/assets/541656b3-91f1-454c-ba66-338ac81f12dc">
 <br />
 
-
 #
 ### Introduction
  CCS Focusing is a sequential machine learning model implemented in a python executable platform for use to reduce the number of conformers sampled post conformation generation, which is often necessary when modeling highly flexible systems like fatty acids. This is done by predicting the gas phase ion-neutral (*i.e.*, $N_{2}$) collisional cross section (a molecular descriptor within the confines of ion-mobility mass spectrometry) values of raw conformers to determine their ion-mobility mass spectrometry (IM-MS) gas phase relevance. 
 <br />
-
 The model is trained on computed CCS values from 3D structures that have been geometry optimized at the density functional theory (DFT) D3BJ-B3LYP/6-31G(d,p) for cation, $[M+H]^+$, and D3BJ-B3LYP/6-31+G(d,p) level of theory for anion, $[M-H]^-$.
 <br />
 
@@ -24,7 +22,7 @@ The latest CCS prediction performance using our current dataset for lipid class 
 <img align = "center" width="500" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49"> 
 <br />
 
-# 📘 Step-by-Step User Guide: CCS Focusing Pipeline
+## 📘 Step-by-Step User Guide: CCS Focusing Pipeline
 
 
 ### **1. Environment Setup**
@@ -134,6 +132,4 @@ Quantum mechanical calculations and data used in building this model were organi
 <br/>
 <br/>
 
-<br />
 
-<img align = "right" width="75" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/c02957e7-bf41-43ce-860c-4927420b2f20">
