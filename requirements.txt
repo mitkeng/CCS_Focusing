@@ -1,0 +1,9 @@
+rdkit
+ase
+pandas
+numpy
+matplotlib
+seaborn
+tensorflow
+tensorflow-decision-forests
+py3Dmol
