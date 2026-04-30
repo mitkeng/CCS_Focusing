@@ -14,7 +14,6 @@ The model is trained on computed CCS values from 3D structures that have been ge
 
  The advantages ultimately are reduced computational workload downstream (*e.g.*, quantum mechanical calculations) and improved gas phase structure prediction precision. Currently, the only model in this repository that has been validated for use is the *lipid_model.keras* for lipids; validations for other biomolecule classes are currently in progress. 
 <br />
-<br />
 #
 ### Performance 
 The latest CCS prediction performance using our current dataset for lipid class molecules as compared to DFT derived CCS values is as follow: 
@@ -105,7 +104,6 @@ Additional unvalidated models for other biomolecule classes are made available a
 
 Connection to Google Colab Notebook is required. Connecting to Google Drive for importing and exporting data or results are supported. 
 <br />
-<br />
 
 #
 ### Web Application Option
@@ -116,7 +114,6 @@ Connection to Google Colab Notebook is required. Connecting to Google Drive for 
 ### Complementary
   [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1HiXUZB65Ryf71YyuKg_V3VIWjwuRGXAR?usp=sharing) <code style="color : grey">to access proGENi conformation generation platform.</code>
 
-<br />
 
 #
 ### Citation
