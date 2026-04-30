@@ -24,6 +24,81 @@ The latest CCS prediction performance using our current dataset for lipid class 
 <img align = "center" width="500" alt="focus" src="https://github.com/mitkeng/CCS_Focusing/assets/97419520/6704197c-f48a-4212-b065-b6d04a798b49"> 
 <br />
 
+# 📘 Step-by-Step User Guide: CCS Focusing Pipeline
+
+
+### **1. Environment Setup**
+The pipeline requires a mix of scientific libraries and machine learning frameworks. 
+
+**Automated Installation:**
+Run the provided shell script. It installs scientific packages (PyMOL, RDKit, ASE) via Mamba and Python dependencies via Pip.
+```bash
+chmod +x setup_env.sh
+./setup_env.sh
+```
+
+**Manual Installation (Fallback):**
+If you prefer manual control, ensure you have a Conda environment active and run:
+```bash
+mamba install -c conda-forge rdkit ase pymol-open-source -y
+pip install -r requirements.txt
+```
+
+---
+
+### **2. Batch CCS Prediction**
+To predict CCS values for a folder full of `.xyz` files and save them to a CSV report:
+
+**Command:**
+```bash
+python predict_ensemble.py --folder ./your_xyz_folder --output results.csv
+```
+- `--folder`: Path to your directory containing conformers.
+- `--output`: The name of the CSV file where predictions will be stored.
+
+---
+
+### **3. CCS Focusing (Siphoning)**
+This command identifies conformers that match your experimental reference value and copies them to a new 'focused' directory.
+
+**Command:**
+```bash
+python predict_ensemble.py \
+    --folder ./your_xyz_folder \
+    --target 145.0 \
+    --tolerance 0.05 \
+    --name MyMolecule \
+    --output focused_results.csv
+
+- `--target`: Your experimental CCS value (in Å²).
+- `--tolerance`: The allowed deviation (e.g., `0.05` for 5%).
+- `--name`: Prefix for the output folder (e.g., `MyMolecule_Target_145.0`).
+```
+
+
+### **4. Using the Python API**
+You can integrate these utilities into your own Python workflow using the `ccs_focusing_utils` module.
+
+```python
+import tensorflow as tf
+import ccs_focusing_utils as ccs_utils
+
+# 1. Load the model
+model = tf.keras.models.load_model('ML_ccs.keras')
+
+# 2. Predict and siphon match conformers in one go
+focused_dir = ccs_utils.filter_and_siphon_conformers(
+    model=model,
+    folder_path='input_xyz_files',
+    experimental_ccs=142.5,
+    std_error=0.03,
+    compound_name='Inhibitor_Project'
+)
+
+print(f"Focused conformers saved in: {focused_dir}")
+```
+
+
 #
 ### Remarks and Requirement 
 This program takes in an ensemble of raw conformers in atomic cartesian xyz format as input. As mentioned prior, CCS is predicted for $N_{2}$  as the neutral IM-MS collision gas. Only filtering and partitioning of conformers are accomplished; no alteration to conformer physical property is done. The filter size is automatically constructed from the model's latest performance standard prediction error and a user input reference CCS value. 
@@ -35,7 +110,7 @@ Connection to Google Colab Notebook is required. Connecting to Google Drive for 
 <br />
 
 #
-### Accessibility
+### Web Application Option
  [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">](https://colab.research.google.com/drive/1ZTLqHMI-rdoHQZ4zjElK4VEPLQhXcUp6?usp=sharing) <code style="color : grey">to access CCS Focusing platform.</code>
 <br />
 
